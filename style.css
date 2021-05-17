@@ -1,0 +1,148 @@
+body{
+    font-size: 14px;
+    color: #333;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    padding: 10px 0;
+    margin: 0;
+    color: #ffffff;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    padding: 0 60px;
+    background-color: #000000;
+    border-bottom: 2px solid #333;
+    position: fixed;
+}
+
+ul, li{
+    padding: 0;
+    margin: 0;
+}
+
+.navi,
+.content_status,
+.contents{
+    list-style: none;
+    padding: 20px;
+}
+
+.heading{
+    width: 50%;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.nav_bar{
+    width: 50%;
+    height: 60px;
+    display: flex;
+}
+
+.navi_list{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.current_content{
+    margin-left: 5px;
+}
+
+.content_status{
+    color: #ffffff;
+}
+
+.navi_list{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*-------------------------------*/
+
+.back{
+    background-color: #000000;
+}
+
+.top,
+.profile,
+.works,
+.contact{
+    height: 100vh;
+    border-bottom: 2px solid #333;
+}
+
+.sub_title{
+    padding-top: 60px;
+    margin-left: 90px;
+}
+
+.top{
+    background-size: cover;
+}
+
+.top_con1{
+    font-size: 5em;
+    margin-left: 120px;
+}
+
+.top_con2{
+    width: 50vw;
+    font-size: 3em;
+    margin: 0 0 0 auto;
+}
+
+.profile_block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 600px;
+}
+
+.name,
+.email,
+.tell,
+.subject{
+    width: 500px;
+    height: 3em;
+    display: block;
+    margin: 20px auto;
+}
+
+.comment{
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+    display: block;
+}
+
+.send{
+    width: 200px;
+    height: 3em;
+    display: block;
+    margin: 50px auto;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang = "ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Taiki.ND　Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1 class="title">Portfolio <= Taiki.ND</h1>
+        </div>
+        <div class="nav_bar">
+            <ul class="navi_list">  
+                <li class="navi"><a id="link_section1" href="javascript:void(0);" onclick="ScrollWindow('section1');">top</a><br /></li>
+                <li class="navi"><a id="link_section1" href="javascript:void(0);" onclick="ScrollWindow('section2');">profile</a><br /></li>
+                <li class="navi"><a id="link_section1" href="javascript:void(0);" onclick="ScrollWindow('section3');">works/can do</a><br /></li>
+                <li class="navi"><a id="link_section1" href="javascript:void(0);" onclick="ScrollWindow('section4');">contact</a><br /></li>
+            </ul>
+        </div>   
+    </header>
+    <div class="back">
+
+        <div class="top" id="section1" style="background-image: url(image/top_image.jpg);">
+            <div class="sub_title">
+                <h2>Top</h2>
+            </div>
+            <div class="top_con1">
+                <p>Taiki Noda's Portfolio</p>
+            </div>
+            <div class="top_con2">
+                <p>Thank you for comming!</p>
+            </div>
+        </div>
+    
+        <div class="profile" id="section2">
+            <div class="sub_title">
+                <h2>profile</h2>
+            </div>
+            <div class="profile_block">
+                <div class="profile_img"></div>
+                <div class="profile_content">
+                    <P>name: <b>Taiki Noda</b></P>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="works" id="section3">
+            <div class="sub_title">
+                <h2>works/can do</h2>
+            </div>
+        </div>
+    
+        <div class="contact" id="section4">
+            <div class="sub_title">
+                <h2>contact</h2>
+            </div>
+            <div class="contact_form">
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScEY70DfSJdvEZUGg1SbEcUEumnIriHLPBlDktHJOiq8Z00dw/formResponse", method="POST", class: "form">
+                    <input type="text" name="entry.2005620554" value="" placeholder="your name" class="name">
+                    <input type="text" name="entry.1045781291" value="" placeholder="e-mail" class="email">
+                    <input type="text" name="entry.1166974658" value="" placeholder="tell" class="tell">
+                    <input type="text" name="entry.839337160" value="" placeholder="subject" class="subject">
+                    <textarea name="entry.839337160" placeholder="comment..." class="comment"></textarea>
+                    <input type="submit" value="SEND" class="send">
+                </form>
+            </div>  
+        </div>
+    </div>
+    <footer>
+        copiright
+    </footer>
+</body>
+</html>
