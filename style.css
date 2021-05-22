@@ -106,43 +106,51 @@ a{
     align-items: center;
 }
 
-.contact_form{
+.profile_img{
+    width: 50%;
+}
+
+.profile_content{
+    width: 50%;
+}
+
+.learn_tech{
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.contact_form{
+.lists{
+    color: white;
+}
+
+.lists_a{
+    margin-left: 30px;
+}
+
+.lists_b{
+    margin-left: 10%;
+}
+
+.works_img{
+    width: 400px;
+}
+
+.work_p{
+    width: 400px;
+    text-align: center;
+}
+
+
+.lists_c{
+    list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
 }
 
-.form{
-    width: 600px;
-}
-
-.name,
-.email,
-.tell,
-.subject{
-    width: 500px;
-    height: 3em;
-    display: block;
-    margin: 20px auto;
-}
-
-.comment{
-    width: 500px;
-    height: 200px;
-    display: block;
-    margin: 20px auto;
-    display: block;
-}
-
-.send{
-    width: 200px;
-    height: 3em;
-    display: block;
-    margin: 50px auto;
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 2px solid #333;
+    text-align: center;
 }
