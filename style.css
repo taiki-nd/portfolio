@@ -127,10 +127,12 @@ a{
 
 .lists_a{
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .lists_b{
     margin-left: 10%;
+    margin-bottom: 30px;
 }
 
 /*----------------------------------------*/
@@ -150,6 +152,9 @@ a{
     margin-top: 15%;
 }
 
+.works a{
+    text-decoration: underline;
+}
 /*----------------------------------------*/
 
 .lists_c{
@@ -165,4 +170,69 @@ footer{
     background-color: #000000;
     border-radius: 2px solid #333;
     text-align: center;
+}
+
+@media screen and (max-width: 767px){
+
+    header{
+        height: 80px;
+        flex-direction: column;
+    }
+
+    .title,
+    .navi{
+        padding: 0;
+    }
+
+    .navi{
+        padding-left: 20px;
+        overflow-x: scroll;
+    } 
+
+    .top,
+    .profile,
+    .works,
+    .contact{
+        height: 100%;
+    }
+
+    .sub_title{
+        padding-top: 100px;
+    }
+
+    .nav_bar{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .top_con1{
+        font-size: 2em;
+        margin-left: 30px;
+    }
+
+    .top_con2{
+        font-size: 2em;
+        margin-left: 60px;
+    }
+
+    .profile{
+        flex-direction: column;
+    }
+
+    .profile_block{
+        flex-direction: column;
+    }
+
+    .upper{
+        flex-direction: column;
+    }
+
+    .work{
+        margin: 30px auto;
+    }
+
 }
