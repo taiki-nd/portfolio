@@ -66,7 +66,8 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
-/*-------------------------------*/
+
+/*----------------------------------------*/
 
 .back{
     background-color: #000000;
@@ -82,7 +83,7 @@ a{
 
 .sub_title{
     padding-top: 60px;
-    margin-left: 90px;
+    margin: 0 5% 0;
 }
 
 .top{
@@ -99,6 +100,8 @@ a{
     font-size: 3em;
     margin: 0 0 0 auto;
 }
+
+/*----------------------------------------*/
 
 .profile_block{
     display: flex;
@@ -130,6 +133,8 @@ a{
     margin-left: 10%;
 }
 
+/*----------------------------------------*/
+
 .works_img{
     width: 400px;
 }
@@ -139,6 +144,13 @@ a{
     text-align: center;
 }
 
+.upper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+
+/*----------------------------------------*/
 
 .lists_c{
     list-style: none;
