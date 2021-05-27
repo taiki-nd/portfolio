@@ -140,34 +140,23 @@ a{
 }
 
 /*----------------------------------------*/
-
-.works_img{
-    width: 400px;
-    
-}
-
-.work{
-    opacity: 0;
-    visibility: hidden;
-    transition-duration: 1000ms;
-    transform: translate(-100px, 0);
-}
-
-.scroll_in{
-    opacity: 1;
-    transform: translate(0, 0);
-    visibility: visible;
-}
-
-.work_p{
-    width: 400px;
-    text-align: center;
-}
-
 .upper{
     display: flex;
     justify-content: space-around;
     margin-top: 15%;
+}
+
+.works_img{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.work_p{
+    width: 90%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .works a{

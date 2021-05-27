@@ -7,8 +7,5 @@ function ScrollWindow(elem) {
     document.documentElement.scrollTop = elemtop;
   }
 
-const hedderAnimation = document.getElementById("header")
-hedderAnimation.addEventListener('scroll', function(){
-    console.log("ok")
-})
+
 
