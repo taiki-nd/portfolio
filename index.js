@@ -1,3 +1,5 @@
+
+
 function ScrollWindow(elem) {
     var element = document.getElementById(elem);
     var rect = element.getBoundingClientRect();
@@ -10,12 +12,17 @@ hedderAnimation.addEventListener('scroll', function(){
     console.log("ok")
 })
 
-$(document).ready(function() {
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 0) {
-            $('header').css('opacity', 0.8);
-        } else {
-            $('header').css('opacity', 1);
-        }
+const scrollEvent = function(){
+    window.addEventListener("scroll", function(){
+        let scrollvalue = window.pageYOffset;
+        let scrollEle = document.querySelectorAll(".work");
+        let scrollTop = scrollEle.getBoundingClientRect().top + scrollvalue;
+        let windowHeight = window.innerHeight;
+        let value = 150;
+        if(scrollvalue > scrollTop - windowHeight + value){
+            scrollEle.classList.add("scroll_in");
+        }    
     });
-});
+};
+
+scrollEvent();

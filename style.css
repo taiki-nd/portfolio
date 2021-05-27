@@ -143,6 +143,20 @@ a{
 
 .works_img{
     width: 400px;
+    
+}
+
+.work{
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 1000ms;
+    transform: translate(-100px, 0);
+}
+
+.scroll_in{
+    opacity: 1;
+    transform: translate(0, 0);
+    visibility: visible;
 }
 
 .work_p{
