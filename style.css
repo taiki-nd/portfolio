@@ -181,15 +181,12 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width: 480px){
-
-    img{
-        width: 100%;
-    }
+@media screen and (max-width: 767px){
 
     header{
         height: 80px;
         flex-direction: column;
+        padding: 0;
     }
 
     .title,
@@ -211,6 +208,13 @@ footer{
 
     .sub_title{
         padding-top: 100px;
+    }
+
+    .heading{
+        width: 90%;
+        display: block;
+        margin: 0px auto;
+
     }
 
     .nav_bar{
@@ -240,6 +244,10 @@ footer{
         flex-direction: column;
     }
 
+    .profile_content{
+        width: 90%;
+    }
+
     .upper{
         flex-direction: column;
     }
@@ -255,7 +263,7 @@ footer{
     }
 
     .lists_c img{
-        width: 80%;
+        width: 60%;
         display: block;
         margin: 0px auto 40px;
     }
