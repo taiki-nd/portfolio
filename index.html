@@ -3,28 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="index.js"></script>
     <title>Taiki.ND　Portfolio</title>
 </head>
 <body>
     <header id="header">
+
         <div class="heading">
             <h1 class="title">Portfolio <= Taiki.ND</h1>
         </div>
-        <div class="nav_bar">
+
+        <div id="nav_bar">
             <ul class="navi_list">  
-                <li class="navi"><a id="link_section1" href="javascript:void(0);" onclick="ScrollWindow('section1');">top</a><br /></li>
-                <li class="navi"><a id="link_section1" href="javascript:void(0);" onclick="ScrollWindow('section2');">profile</a><br /></li>
-                <li class="navi"><a id="link_section1" href="javascript:void(0);" onclick="ScrollWindow('section3');">works/can do</a><br /></li>
-                <li class="navi"><a id="link_section1" href="javascript:void(0);" onclick="ScrollWindow('section4');">contact</a><br /></li>
+                <li class="navi"><a href="#section1">top</a></li>
+                <li class="navi"><a href="#section2">profile</a></li>
+                <li class="navi"><a href="#section3">works/can do</a></li>
+                <li class="navi"><a href="#section4">contact</a></li>
             </ul>
-        </div>   
+            <p class="nav_sns">twitter</p>
+        </div>
+
+        <div class="toggle_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="mask"></div>
+
     </header>
 
     <div class="back">
 
-        <div class="top" id="section1" style="background-image: url(image_portfolio1/top_image.jpg);">
+        <section class="top" id="section1" style="background-image: url(image_portfolio1/top_image.jpg);">
             <div class="sub_title">
                 <h2>Top</h2>
             </div>
@@ -34,9 +50,9 @@
             <div class="top_con2">
                 <p>Thank you for coming!</p>
             </div>
-        </div>
+        </section>
     
-        <div class="profile" id="section2">
+        <section class="profile" id="section2">
             <div class="sub_title">
                 <h2>profile</h2>
             </div>
@@ -67,28 +83,28 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     
-        <div class="works" id="section3">
+        <section class="works" id="section3">
             <div class="sub_title">
                 <h2>works/can do</h2>
-                <div class="upper">
+                <div class="grid">
                     <div class="work">
-                        <img src="image_portfolio1/pictweet.png" class="works_img">
+                        <img src="image_portfolio1/pictweet.png" class="works_img fadein">
                         <p class="work_p"><a href="https://pictweet-35472.herokuapp.com/">sample app</a></p>
                         <p class="work_p"><a href="https://github.com/taiki-nd/pictweet_from_aws">GitHub</a></p>
                     </div>
                     <div class="work">
-                        <img src="image_portfolio1/portfolio_1.png" class="works_img">
+                        <img src="image_portfolio1/portfolio_1.png" class="works_img fadein">
                         <p class="work_p"><a href="#">Portfolio(this web site)</a></p>
                     </div>
                     <div class="work">
-                        <img src="image_portfolio1/sample1.png" class="works_img">
+                        <img src="image_portfolio1/sample1.png" class="works_img fadein">
                         <p class="work_p"><a href="https://taiki-nd-portfolio.com/sample1/">sample web site(1 page)</a></p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     
         <div class="contact" id="section4">
             <div class="sub_title">
