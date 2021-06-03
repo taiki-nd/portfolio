@@ -145,14 +145,14 @@ header---------------------
 
 .open #mask{
     display: block;
-    opacity: 0.3;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    opacity: 0.3;
     z-index: 10;
+    background-color: #fff;
     cursor: pointer;
 }
 
