@@ -24,6 +24,7 @@ header{
     background-color: #000000;
     border-bottom: 2px solid #333;
     position: fixed;
+    z-index: 10;
 }
 
 ul, li{
@@ -36,6 +37,12 @@ ul, li{
 .contents{
     list-style: none;
     padding: 20px;
+}
+
+.fadein{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s;
 }
 
 /*-------------------------
@@ -229,12 +236,10 @@ a{
 
 .lists_a{
     margin-left: 30px;
-    margin-bottom: 30px;
 }
 
 .lists_b{
     margin-left: 10%;
-    margin-bottom: 30px;
 }
 
 .lists_c img{
@@ -242,6 +247,7 @@ a{
 }
 
 /*----------------------------------------*/
+
 .grid{
     margin-top: 20px;
     display: grid;
@@ -249,10 +255,8 @@ a{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.fadein{
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s;
+.grid img{
+    vertical-align: top;
 }
 
 .work{
@@ -269,7 +273,6 @@ a{
 .works a{
     text-decoration: underline;
 }
-
 
 /*----------------------------------------*/
 
@@ -368,7 +371,6 @@ footer{
     .lists_c{
         flex-direction: column;
         margin-top: 20px;
-        
     }
 
     .lists_c img{
