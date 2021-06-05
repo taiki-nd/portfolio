@@ -184,15 +184,18 @@ a{
     background-color: #000000;
 }
 
-.top,
-.profile{
+.top{
     height: 100vh;
     border-bottom: 2px solid #333;
+    padding-top: 60px;
 }
 
+
+
 .sub_title{
-    padding-top: 60px;
     margin: 0 5% 0;
+    margin-top: 30px;
+    text-decoration: underline #fff;
 }
 
 .top{
@@ -311,15 +314,8 @@ footer{
         overflow-x: scroll;
     } 
 
-    .top,
-    .profile,
-    .works,
-    .contact{
-        height: 100%;
-    }
-
     .sub_title{
-        padding-top: 100px;
+        padding-top: 20px;
     }
 
     .heading{
