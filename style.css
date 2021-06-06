@@ -80,8 +80,9 @@ header---------------------
 }
 
 .nav_sns{
-    margin: 100px auto;
-    text-align: center;
+    width: 150px;
+    margin: 80px 40px;
+    font-size: 1.2rem;
 }
 
 .navi{
@@ -222,7 +223,8 @@ a{
 }
 
 .profile_img{
-    width: 50%;
+    width: 300px;
+    margin: 20px;
 }
 
 .profile_content{
